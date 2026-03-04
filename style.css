@@ -1,6 +1,21 @@
+html{
+width: 100%;
+height: 100%;
+}
+
 h2{
     text-align: center;
+    font-size: 5cqb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h4{
     text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: color-mix(in hsl shorter hue, green 50%, blue 50%);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
 }
