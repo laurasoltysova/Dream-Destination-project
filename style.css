@@ -1,21 +1,49 @@
 html{
+/*Sets the website size*/
 width: 100%;
 height: 100%;
 }
 
 h2{
+    /*Aligns the text and font for the 2nd heading*/
     text-align: center;
     font-size: 5cqb;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h4{
+    /*Aligns and sets the font for the 4th heading*/
     text-align: center;
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
+    /*Sets the background color and default font and size for the paragraphs*/
     background-color: color-mix(in hsl shorter hue, green 50%, blue 50%);
     color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+}
+
+/* Animation Code */
+    @keyframes move {
+        0% { transform: rotate(360deg); } /*Sets the original angle*/
+        50% { transform: rotate(-360deg); } /*Sets the angle when at 50%*/
+        100% { transform: rotate(360deg); } /*Sets the final angle*/
+    }
+
+
+    /* Applyies the animation */
+    #Grass {
+        animation: move 15s forwards infinite;
+    }
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 150%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
+}
+a:hover{
+    color: darkgreen;
+    text-decoration: underline;
 }
